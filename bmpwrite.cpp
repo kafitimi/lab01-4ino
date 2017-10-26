@@ -90,7 +90,7 @@ int main(char argc, char* argv[]) {
 
     f >> N >> M >> color;
 
-    // выделяем память под один (для чб) или три (для цв) массива MxN 
+    // выделяем память под один (для чб) или три (для цв) массива MxN lul
     b = new int*[M]; for (i = 0; i < M; i++) b[i] = new int[N];
     if (color) {
         g = new int*[M]; for (i = 0; i < M; i++) g[i] = new int[N];
